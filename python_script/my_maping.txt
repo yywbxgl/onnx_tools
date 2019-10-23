@@ -1,0 +1,1000 @@
+0 449 n01440764 tench, Tinca tinca 
+1 450 n01443537 goldfish, Carassius auratus 
+2 442 n01484850 great white shark, white shark, man-eater, man-eating shark, Carcharodon carcharias 
+3 443 n01491361 tiger shark, Galeocerdo cuvieri 
+4 444 n01494475 hammerhead, hammerhead shark 
+5 445 n01496331 electric ray, crampfish, numbfish, torpedo 
+6 446 n01498041 stingray 
+7 383 n01514668 cock 
+8 384 n01514859 hen 
+9 385 n01518878 ostrich, Struthio camelus 
+10 386 n01530575 brambling, Fringilla montifringilla 
+11 387 n01531178 goldfinch, Carduelis carduelis 
+12 388 n01532829 house finch, linnet, Carpodacus mexicanus 
+13 389 n01534433 junco, snowbird 
+14 390 n01537544 indigo bunting, indigo finch, indigo bird, Passerina cyanea 
+15 391 n01558993 robin, American robin, Turdus migratorius 
+16 392 n01560419 bulbul 
+17 393 n01580077 jay 
+18 394 n01582220 magpie 
+19 395 n01592084 chickadee 
+20 396 n01601694 water ouzel, dipper 
+21 397 n01608432 kite 
+22 398 n01614925 bald eagle, American eagle, Haliaeetus leucocephalus 
+23 399 n01616318 vulture 
+24 400 n01622779 great grey owl, great gray owl, Strix nebulosa 
+25 494 n01629819 European fire salamander, Salamandra salamandra 
+26 495 n01630670 common newt, Triturus vulgaris 
+27 496 n01631663 eft 
+28 497 n01632458 spotted salamander, Ambystoma maculatum 
+29 498 n01632777 axolotl, mud puppy, Ambystoma mexicanum 
+30 499 n01641577 bullfrog, Rana catesbeiana 
+31 500 n01644373 tree frog, tree-frog 
+32 501 n01644900 tailed frog, bell toad, ribbed toad, tailed toad, Ascaphus trui 
+33 458 n01664065 loggerhead, loggerhead turtle, Caretta caretta 
+34 459 n01665541 leatherback turtle, leatherback, leathery turtle, Dermochelys coriacea 
+35 460 n01667114 mud turtle 
+36 461 n01667778 terrapin 
+37 462 n01669191 box turtle, box tortoise 
+38 463 n01675722 banded gecko 
+39 464 n01677366 common iguana, iguana, Iguana iguana 
+40 465 n01682714 American chameleon, anole, Anolis carolinensis 
+41 466 n01685808 whiptail, whiptail lizard 
+42 467 n01687978 agama 
+43 468 n01688243 frilled lizard, Chlamydosaurus kingi 
+44 469 n01689811 alligator lizard 
+45 470 n01692333 Gila monster, Heloderma suspectum 
+46 471 n01693334 green lizard, Lacerta viridis 
+47 472 n01694178 African chameleon, Chamaeleo chamaeleon 
+48 473 n01695060 Komodo dragon, Komodo lizard, dragon lizard, giant lizard, Varanus komodoensis 
+49 475 n01697457 African crocodile, Nile crocodile, Crocodylus niloticus 
+50 476 n01698640 American alligator, Alligator mississipiensis 
+51 474 n01704323 triceratops 
+52 477 n01728572 thunder snake, worm snake, Carphophis amoenus 
+53 478 n01728920 ringneck snake, ring-necked snake, ring snake 
+54 479 n01729322 hognose snake, puff adder, sand viper 
+55 480 n01729977 green snake, grass snake 
+56 481 n01734418 king snake, kingsnake 
+57 482 n01735189 garter snake, grass snake 
+58 483 n01737021 water snake 
+59 484 n01739381 vine snake 
+60 485 n01740131 night snake, Hypsiglena torquata 
+61 486 n01742172 boa constrictor, Constrictor constrictor 
+62 487 n01744401 rock python, rock snake, Python sebae 
+63 488 n01748264 Indian cobra, Naja naja 
+64 489 n01749939 green mamba 
+65 490 n01751748 sea snake 
+66 491 n01753488 horned viper, cerastes, sand viper, horned asp, Cerastes cornutus 
+67 492 n01755581 diamondback, diamondback rattlesnake, Crotalus adamanteus 
+68 493 n01756291 sidewinder, horned rattlesnake, Crotalus cerastes 
+69 601 n01768244 trilobite 
+70 602 n01770081 harvestman, daddy longlegs, Phalangium opilio 
+71 603 n01770393 scorpion 
+72 604 n01773157 black and gold garden spider, Argiope aurantia 
+73 605 n01773549 barn spider, Araneus cavaticus 
+74 606 n01773797 garden spider, Aranea diademata 
+75 607 n01774384 black widow, Latrodectus mactans 
+76 608 n01774750 tarantula 
+77 609 n01775062 wolf spider, hunting spider 
+78 610 n01776313 tick 
+79 611 n01784675 centipede 
+80 401 n01795545 black grouse 
+81 402 n01796340 ptarmigan 
+82 403 n01797886 ruffed grouse, partridge, Bonasa umbellus 
+83 404 n01798484 prairie chicken, prairie grouse, prairie fowl 
+84 405 n01806143 peacock 
+85 406 n01806567 quail 
+86 407 n01807496 partridge 
+87 408 n01817953 African grey, African gray, Psittacus erithacus 
+88 409 n01818515 macaw 
+89 410 n01819313 sulphur-crested cockatoo, Kakatoe galerita, Cacatua galerita 
+90 411 n01820546 lorikeet 
+91 412 n01824575 coucal 
+92 413 n01828970 bee eater 
+93 414 n01829413 hornbill 
+94 415 n01833805 hummingbird 
+95 416 n01843065 jacamar 
+96 417 n01843383 toucan 
+97 418 n01847000 drake 
+98 419 n01855032 red-breasted merganser, Mergus serrator 
+99 420 n01855672 goose 
+100 421 n01860187 black swan, Cygnus atratus 
+101 214 n01871265 tusker 
+102 215 n01872401 echidna, spiny anteater, anteater 
+103 217 n01873310 platypus, duckbill, duckbilled platypus, duck-billed platypus, Ornithorhynchus anatinus 
+104 216 n01877812 wallaby, brush kangaroo 
+105 213 n01882714 koala, koala bear, kangaroo bear, native bear, Phascolarctos cinereus 
+106 218 n01883070 wombat 
+107 647 n01910747 jellyfish 
+108 648 n01914609 sea anemone, anemone 
+109 649 n01917289 brain coral 
+110 650 n01924916 flatworm, platyhelminth 
+111 651 n01930112 nematode, nematode worm, roundworm 
+112 652 n01943899 conch 
+113 653 n01944390 snail 
+114 654 n01945685 slug 
+115 655 n01950731 sea slug, nudibranch 
+116 656 n01955084 chiton, coat-of-mail shell, sea cradle, polyplacophore 
+117 226 n01968897 chambered nautilus, pearly nautilus, nautilus 
+118 613 n01978287 Dungeness crab, Cancer magister 
+119 614 n01978455 rock crab, Cancer irroratus 
+120 615 n01980166 fiddler crab 
+121 616 n01981276 king crab, Alaska crab, Alaskan king crab, Alaska king crab, Paralithodes camtschatica 
+122 617 n01983481 American lobster, Northern lobster, Maine lobster, Homarus americanus 
+123 618 n01984695 spiny lobster, langouste, rock lobster, crawfish, crayfish, sea crawfish 
+124 619 n01985128 crayfish, crawfish, crawdad, crawdaddy 
+125 620 n01986214 hermit crab 
+126 612 n01990800 isopod 
+127 422 n02002556 white stork, Ciconia ciconia 
+128 423 n02002724 black stork, Ciconia nigra 
+129 424 n02006656 spoonbill 
+130 425 n02007558 flamingo 
+131 427 n02009229 little blue heron, Egretta caerulea 
+132 426 n02009912 American egret, great white heron, Egretta albus 
+133 428 n02011460 bittern 
+134 429 n02012849 animal crane 
+135 430 n02013706 limpkin, Aramus pictus 
+136 438 n02017213 European gallinule, Porphyrio porphyrio 
+137 431 n02018207 American coot, marsh hen, mud hen, water hen, Fulica americana 
+138 432 n02018795 bustard 
+139 433 n02025239 ruddy turnstone, Arenaria interpres 
+140 434 n02027492 red-backed sandpiper, dunlin, Erolia alpina 
+141 435 n02028035 redshank, Tringa totanus 
+142 436 n02033041 dowitcher 
+143 437 n02037110 oystercatcher, oyster catcher 
+144 439 n02051845 pelican 
+145 440 n02056570 king penguin, Aptenodytes patagonica 
+146 441 n02058221 albatross, mollymawk 
+147 6 n02066245 grey whale, gray whale, devilfish, Eschrichtius gibbosus, Eschrichtius robustus 
+148 22 n02071294 killer whale, killer, orca, grampus, sea wolf, Orcinus orca 
+149 193 n02074367 dugong, Dugong dugon 
+150 14 n02077923 sea lion 
+151 173 n02085620 Chihuahua 
+152 99 n02085782 Japanese spaniel 
+153 87 n02085936 Maltese dog, Maltese terrier, Maltese 
+154 69 n02086079 Pekinese, Pekingese, Peke 
+155 116 n02086240 Shih-Tzu 
+156 198 n02086646 Blenheim spaniel 
+157 43 n02086910 papillon 
+158 89 n02087046 toy terrier 
+159 200 n02087394 Rhodesian ridgeback 
+160 98 n02088094 Afghan hound, Afghan 
+161 161 n02088238 basset, basset hound 
+162 132 n02088364 beagle 
+163 32 n02088466 bloodhound, sleuthhound 
+164 180 n02088632 bluetick 
+165 42 n02089078 black-and-tan coonhound 
+166 18 n02089867 Walker hound, Walker foxhound 
+167 207 n02089973 English foxhound 
+168 181 n02090379 redbone 
+169 105 n02090622 borzoi, Russian wolfhound 
+170 77 n02090721 Irish wolfhound 
+171 189 n02091032 Italian greyhound 
+172 20 n02091134 whippet 
+173 204 n02091244 Ibizan hound, Ibizan Podenco 
+174 63 n02091467 Norwegian elkhound, elkhound 
+175 31 n02091635 otterhound, otter hound 
+176 66 n02091831 Saluki, gazelle hound 
+177 21 n02092002 Scottish deerhound, deerhound 
+178 25 n02092339 Weimaraner 
+179 45 n02093256 Staffordshire bullterrier, Staffordshire bull terrier 
+180 170 n02093428 American Staffordshire terrier, Staffordshire terrier, American pit bull terrier, pit bull terrier 
+181 119 n02093647 Bedlington terrier 
+182 210 n02093754 Border terrier 
+183 107 n02093859 Kerry blue terrier 
+184 126 n02093991 Irish terrier 
+185 88 n02094114 Norfolk terrier 
+186 145 n02094258 Norwich terrier 
+187 59 n02094433 Yorkshire terrier 
+188 160 n02095314 wire-haired fox terrier 
+189 152 n02095570 Lakeland terrier 
+190 72 n02095889 Sealyham terrier, Sealyham 
+191 33 n02096051 Airedale, Airedale terrier 
+192 91 n02096177 cairn, cairn terrier 
+193 4 n02096294 Australian terrier 
+194 27 n02096437 Dandie Dinmont, Dandie Dinmont terrier 
+195 113 n02096585 Boston bull, Boston terrier 
+196 123 n02097047 miniature schnauzer 
+197 36 n02097130 giant schnauzer 
+198 156 n02097209 standard schnauzer 
+199 109 n02097298 Scotch terrier, Scottish terrier, Scottie 
+200 158 n02097474 Tibetan terrier, chrysanthemum dog 
+201 131 n02097658 silky terrier, Sydney silky 
+202 26 n02098105 soft-coated wheaten terrier 
+203 71 n02098286 West Highland white terrier 
+204 56 n02098413 Lhasa, Lhasa apso 
+205 146 n02099267 flat-coated retriever 
+206 144 n02099429 curly-coated retriever 
+207 125 n02099601 golden retriever 
+208 176 n02099712 Labrador retriever 
+209 139 n02099849 Chesapeake Bay retriever 
+210 134 n02100236 German short-haired pointer 
+211 90 n02100583 vizsla, Hungarian pointer 
+212 2 n02100735 English setter 
+213 192 n02100877 Irish setter, red setter 
+214 154 n02101006 Gordon setter 
+215 150 n02101388 Brittany spaniel 
+216 94 n02101556 clumber, clumber spaniel 
+217 5 n02102040 English springer, English springer spaniel 
+218 19 n02102177 Welsh springer spaniel 
+219 191 n02102318 cocker spaniel, English cocker spaniel, cocker 
+220 196 n02102480 Sussex spaniel 
+221 117 n02102973 Irish water spaniel 
+222 141 n02104029 kuvasz 
+223 68 n02104365 schipperke 
+224 93 n02105056 groenendael 
+225 51 n02105162 malinois 
+226 208 n02105251 briard 
+227 184 n02105412 kelpie 
+228 97 n02105505 komondor 
+229 29 n02105641 Old English sheepdog, bobtail 
+230 171 n02105855 Shetland sheepdog, Shetland sheep dog, Shetland 
+231 124 n02106030 collie 
+232 128 n02106166 Border collie 
+233 47 n02106382 Bouvier des Flandres, Bouviers des Flandres 
+234 64 n02106550 Rottweiler 
+235 211 n02106662 German shepherd, German shepherd dog, German police dog, alsatian 
+236 112 n02107142 Doberman, Doberman pinscher 
+237 187 n02107312 miniature pinscher 
+238 114 n02107574 Greater Swiss Mountain dog 
+239 86 n02107683 Bernese mountain dog 
+240 115 n02107908 Appenzeller 
+241 79 n02108000 EntleBucher 
+242 130 n02108089 boxer 
+243 140 n02108422 bull mastiff 
+244 110 n02108551 Tibetan mastiff 
+245 82 n02108915 French bulldog 
+246 17 n02109047 Great Dane 
+247 177 n02109525 Saint Bernard, St Bernard 
+248 149 n02109961 Eskimo dog, husky 
+249 15 n02110063 malamute, malemute, Alaskan malamute 
+250 3 n02110185 Siberian husky 
+251 41 n02110341 dalmatian, coach dog, carriage dog 
+252 127 n02110627 affenpinscher, monkey pinscher, monkey dog 
+253 84 n02110806 basenji 
+254 143 n02110958 pug, pug-dog 
+255 133 n02111129 Leonberg 
+256 60 n02111277 Newfoundland, Newfoundland dog 
+257 172 n02111500 Great Pyrenees 
+258 179 n02111889 Samoyed, Samoyede 
+259 118 n02112018 Pomeranian 
+260 168 n02112137 chow, chow chow 
+261 148 n02112350 keeshond 
+262 70 n02112706 Brabancon griffon 
+263 197 n02113023 Pembroke, Pembroke Welsh corgi 
+264 50 n02113186 Cardigan, Cardigan Welsh corgi 
+265 106 n02113624 toy poodle 
+266 49 n02113712 miniature poodle 
+267 151 n02113799 standard poodle 
+268 46 n02113978 Mexican hairless 
+269 205 n02114367 timber wolf, grey wolf, gray wolf, Canis lupus 
+270 102 n02114548 white wolf, Arctic wolf, Canis lupus tundrarum 
+271 28 n02114712 red wolf, maned wolf, Canis rufus, Canis niger 
+272 58 n02114855 coyote, prairie wolf, brush wolf, Canis latrans 
+273 155 n02115641 dingo, warrigal, warragal, Canis dingo 
+274 136 n02115913 dhole, Cuon alpinus 
+275 202 n02116738 African hunting dog, hyena dog, Cape hunting dog, Lycaon pictus 
+276 34 n02117135 hyena, hyaena 
+277 62 n02119022 red fox, Vulpes vulpes 
+278 1 n02119789 kit fox, Vulpes macrotis 
+279 159 n02120079 Arctic fox, white fox, Alopex lagopus 
+280 67 n02120505 grey fox, gray fox, Urocyon cinereoargenteus 
+281 174 n02123045 tabby, tabby cat 
+282 55 n02123159 tiger cat 
+283 10 n02123394 Persian cat 
+284 95 n02123597 Siamese cat, Siamese 
+285 8 n02124075 Egyptian cat 
+286 11 n02125311 cougar, puma, catamount, mountain lion, painter, panther, Felis concolor 
+287 201 n02127052 lynx, catamount 
+288 85 n02128385 leopard, Panthera pardus 
+289 153 n02128757 snow leopard, ounce, Panthera uncia 
+290 30 n02128925 jaguar, panther, Panthera onca, Felis onca 
+291 190 n02129165 lion, king of beasts, Panthera leo 
+292 76 n02129604 tiger, Panthera tigris 
+293 206 n02130308 cheetah, chetah, Acinonyx jubatus 
+294 61 n02132136 brown bear, bruin, Ursus arctos 
+295 163 n02133161 American black bear, black bear, Ursus americanus, Euarctos americanus 
+296 103 n02134084 ice bear, polar bear, Ursus Maritimus, Thalarctos maritimus 
+297 209 n02134418 sloth bear, Melursus ursinus, Ursus ursinus 
+298 74 n02137549 mongoose 
+299 35 n02138441 meerkat, mierkat 
+300 621 n02165105 tiger beetle 
+301 622 n02165456 ladybug, ladybeetle, lady beetle, ladybird, ladybird beetle 
+302 623 n02167151 ground beetle, carabid beetle 
+303 624 n02168699 long-horned beetle, longicorn, longicorn beetle 
+304 625 n02169497 leaf beetle, chrysomelid 
+305 626 n02172182 dung beetle 
+306 627 n02174001 rhinoceros beetle 
+307 628 n02177972 weevil 
+308 629 n02190166 fly 
+309 630 n02206856 bee 
+310 224 n02219486 ant, emmet, pismire 
+311 631 n02226429 grasshopper, hopper 
+312 632 n02229544 cricket 
+313 633 n02231487 walking stick, walkingstick, stick insect 
+314 634 n02233338 cockroach, roach 
+315 635 n02236044 mantis, mantid 
+316 636 n02256656 cicada, cicala 
+317 637 n02259212 leafhopper 
+318 638 n02264363 lacewing, lacewing fly 
+319 639 n02268443 dragonfly, darning needle, devil's darning needle, sewing needle, snake feeder, snake doctor, mosquito hawk, skeeter hawk 
+320 640 n02268853 damselfly 
+321 641 n02276258 admiral 
+322 642 n02277742 ringlet, ringlet butterfly 
+323 643 n02279972 monarch, monarch butterfly, milkweed butterfly, Danaus plexippus 
+324 644 n02280649 cabbage butterfly 
+325 645 n02281406 sulphur butterfly, sulfur butterfly 
+326 646 n02281787 lycaenid, lycaenid butterfly 
+327 225 n02317335 starfish, sea star 
+328 657 n02319095 sea urchin 
+329 658 n02321529 sea cucumber, holothurian 
+330 188 n02325366 wood rabbit, cottontail, cottontail rabbit 
+331 129 n02326432 hare 
+332 164 n02328150 Angora, Angora rabbit 
+333 157 n02342885 hamster 
+334 13 n02346627 porcupine, hedgehog 
+335 53 n02356798 fox squirrel, eastern fox squirrel, Sciurus niger 
+336 183 n02361337 marmot 
+337 195 n02363005 beaver 
+338 101 n02364673 guinea pig, Cavia cobaya 
+339 39 n02389026 sorrel 
+340 80 n02391049 zebra 
+341 147 n02395406 hog, pig, grunter, squealer, Sus scrofa 
+342 78 n02396427 wild boar, boar, Sus scrofa 
+343 120 n02397096 warthog 
+344 167 n02398521 hippopotamus, hippo, river horse, Hippopotamus amphibius 
+345 108 n02403003 ox 
+346 162 n02408429 water buffalo, water ox, Asiatic buffalo, Bubalus bubalis 
+347 165 n02410509 bison 
+348 81 n02412080 ram, tup 
+349 52 n02415577 bighorn, bighorn sheep, cimarron, Rocky Mountain bighorn, Rocky Mountain sheep, Ovis canadensis 
+350 9 n02417914 ibex, Capra ibex 
+351 65 n02422106 hartebeest 
+352 57 n02422699 impala, Aepyceros melampus 
+353 12 n02423022 gazelle 
+354 121 n02437312 Arabian camel, dromedary, Camelus dromedarius 
+355 186 n02437616 llama 
+356 48 n02441942 weasel 
+357 23 n02442845 mink 
+358 182 n02443114 polecat, fitch, foulmart, foumart, Mustela putorius 
+359 40 n02443484 black-footed ferret, ferret, Mustela nigripes 
+360 212 n02444819 otter 
+361 44 n02445715 skunk, polecat, wood pussy 
+362 16 n02447366 badger 
+363 178 n02454379 armadillo 
+364 38 n02457408 three-toed sloth, ai, Bradypus tridactylus 
+365 83 n02480495 orangutan, orang, orangutang, Pongo pygmaeus 
+366 104 n02480855 gorilla, Gorilla gorilla 
+367 96 n02481823 chimpanzee, chimp, Pan troglodytes 
+368 185 n02483362 gibbon, Hylobates lar 
+369 122 n02483708 siamang, Hylobates syndactylus, Symphalangus syndactylus 
+370 73 n02484975 guenon, guenon monkey 
+371 135 n02486261 patas, hussar monkey, Erythrocebus patas 
+372 137 n02486410 baboon 
+373 138 n02487347 macaque 
+374 203 n02488291 langur 
+375 54 n02488702 colobus, colobus monkey 
+376 100 n02489166 proboscis monkey, Nasalis larvatus 
+377 175 n02490219 marmoset 
+378 142 n02492035 capuchin, ringtail, Cebus capucinus 
+379 166 n02492660 howler monkey, howler 
+380 37 n02493509 titi, titi monkey 
+381 111 n02493793 spider monkey, Ateles geoffroyi 
+382 92 n02494079 squirrel monkey, Saimiri sciureus 
+383 199 n02497673 Madagascar cat, ring-tailed lemur, Lemur catta 
+384 75 n02500267 indri, indris, Indri indri, Indri brevicaudatus 
+385 194 n02504013 Indian elephant, Elephas maximus 
+386 24 n02504458 African elephant, Loxodonta africana 
+387 7 n02509815 lesser panda, red panda, panda, bear cat, cat bear, Ailurus fulgens 
+388 169 n02510455 giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca 
+389 447 n02514041 barracouta, snoek 
+390 451 n02526121 eel 
+391 448 n02536864 coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch 
+392 452 n02606052 rock beauty, Holocanthus tricolor 
+393 453 n02607072 anemone fish 
+394 456 n02640242 sturgeon 
+395 457 n02641379 gar, garfish, garpike, billfish, Lepisosteus osseus 
+396 454 n02643566 lionfish 
+397 455 n02655020 puffer, pufferfish, blowfish, globefish 
+398 547 n02666196 abacus 
+399 853 n02667093 abaya 
+400 896 n02669723 academic gown, academic robe, judge's robe 
+401 223 n02672831 accordion, piano accordion, squeeze box 
+402 345 n02676566 acoustic guitar 
+403 246 n02687172 aircraft carrier, carrier, flattop, attack aircraft carrier 
+404 230 n02690373 airliner 
+405 232 n02692877 airship, dirigible 
+406 677 n02699494 altar 
+407 265 n02701002 ambulance 
+408 264 n02704792 amphibian, amphibious vehicle 
+409 522 n02708093 analog clock 
+410 688 n02727426 apiary, bee house 
+411 845 n02730930 apron 
+412 752 n02747177 ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin 
+413 540 n02749479 assault rifle, assault gun 
+414 847 n02769748 backpack, back pack, knapsack, packsack, rucksack, haversack 
+415 704 n02776631 bakery, bakeshop, bakehouse 
+416 767 n02777292 balance beam, beam 
+417 233 n02782093 balloon 
+418 907 n02783161 ballpoint, ballpoint pen, ballpen, Biro 
+419 967 n02786058 Band Aid 
+420 341 n02787622 banjo 
+421 718 n02788148 bannister, banister, balustrade, balusters, handrail 
+422 916 n02790996 barbell 
+423 307 n02791124 barber chair 
+424 705 n02791270 barbershop 
+425 683 n02793495 barn 
+426 518 n02794156 barometer 
+427 905 n02795169 barrel, cask 
+428 258 n02797295 barrow, garden cart, lawn cart, wheelbarrow 
+429 807 n02799071 baseball 
+430 908 n02802426 basketball 
+431 296 n02804414 bassinet 
+432 353 n02804610 bassoon 
+433 785 n02807133 bathing cap, swimming cap 
+434 909 n02808304 bath towel 
+435 884 n02808440 bathtub, bathing tub, bath, tub 
+436 266 n02814533 beach wagon, station wagon, wagon, estate car, beach waggon, station waggon, waggon 
+437 733 n02814860 beacon, lighthouse, beacon light, pharos 
+438 991 n02815834 beaker 
+439 849 n02817516 bearskin, busby, shako 
+440 777 n02823428 beer bottle 
+441 811 n02823750 beer glass 
+442 933 n02825657 bell cote, bell cot 
+443 941 n02834397 bib 
+444 254 n02835271 bicycle-built-for-two, tandem bicycle, tandem 
+445 985 n02837789 bikini, two-piece 
+446 835 n02840245 binder, ring-binder 
+447 533 n02841315 binoculars, field glasses, opera glasses 
+448 839 n02843684 birdhouse 
+449 689 n02859443 boathouse 
+450 252 n02860847 bobsled, bobsleigh, bob 
+451 940 n02865351 bolo tie, bolo, bola tie, bola 
+452 805 n02869837 bonnet, poke bonnet 
+453 300 n02870880 bookcase 
+454 706 n02871525 bookshop, bookstore, bookstall 
+455 779 n02877765 bottlecap 
+456 538 n02879718 bow 
+457 817 n02883205 bow tie, bow-tie, bowtie 
+458 716 n02892201 brass, memorial tablet, plaque 
+459 872 n02892767 brassiere, bra, bandeau 
+460 719 n02894605 breakwater, groin, groyne, mole, bulwark, seawall, jetty 
+461 949 n02895154 breastplate, aegis, egis 
+462 851 n02906734 broom 
+463 820 n02909870 bucket, pail 
+464 580 n02910353 buckle 
+465 833 n02916936 bulletproof vest 
+466 887 n02917067 bullet train, bullet 
+467 707 n02927161 butcher shop, meat market 
+468 267 n02930766 cab, hack, taxi, taxicab 
+469 673 n02939185 caldron, cauldron 
+470 591 n02948072 candle, taper, wax light 
+471 539 n02950826 cannon 
+472 239 n02951358 canoe 
+473 377 n02951585 can opener, tin opener 
+474 836 n02963159 cardigan 
+475 576 n02965783 car mirror 
+476 568 n02966193 carousel, carrousel, merry-go-round, roundabout, whirligig 
+477 891 n02966687 carpenter's kit, tool kit 
+478 749 n02971356 carton 
+479 563 n02974003 car wheel 
+480 548 n02977058 cash machine, cash dispenser, automated teller machine, automatic teller machine, automated teller, automatic teller, ATM 
+481 890 n02978881 cassette 
+482 929 n02979186 cassette player 
+483 701 n02980441 castle 
+484 241 n02981792 catamaran 
+485 987 n02988304 CD player 
+486 342 n02992211 cello, violoncello 
+487 914 n02992529 cellular telephone, cellular phone, cellphone, cell, mobile phone 
+488 827 n02999410 chain 
+489 721 n03000134 chainlink fence 
+490 902 n03000247 chain mail, ring mail, mail, chain armor, chain armour, ring armor, ring armour 
+491 382 n03000684 chain saw, chainsaw 
+492 762 n03014705 chest 
+493 303 n03016953 chiffonier, commode 
+494 335 n03017168 chime, bell, gong 
+495 301 n03018349 china cabinet, china closet 
+496 801 n03026506 Christmas stocking 
+497 690 n03028079 church, church building 
+498 695 n03032252 cinema, movie theater, movie theatre, movie house, picture palace 
+499 370 n03041632 cleaver, meat cleaver, chopper 
+500 713 n03042490 cliff dwelling 
+501 797 n03045698 cloak 
+502 979 n03047690 clog, geta, patten, sabot 
+503 761 n03062245 cocktail shaker 
+504 996 n03063599 coffee mug 
+505 674 n03063689 coffeepot 
+506 698 n03065424 coil, spiral, volute, whorl, helix 
+507 583 n03075370 combination lock 
+508 543 n03085013 computer keyboard, keypad 
+509 708 n03089624 confectionery, confectionary, candy store 
+510 243 n03095699 container ship, containership, container vessel 
+511 268 n03100240 convertible 
+512 376 n03109150 corkscrew, bottle screw 
+513 347 n03110669 cornet, horn, trumpet, trump 
+514 910 n03124043 cowboy boot 
+515 881 n03124170 cowboy hat, ten-gallon hat 
+516 297 n03125729 cradle 
+517 545 n03126707 crane 
+518 778 n03127747 crash helmet 
+519 898 n03127925 crate 
+520 298 n03131574 crib, cot 
+521 670 n03133878 Crock Pot 
+522 756 n03134739 croquet ball 
+523 856 n03141823 crutch 
+524 865 n03146219 cuirass 
+525 720 n03160309 dam, dike, dyke 
+526 313 n03179701 desk 
+527 550 n03180011 desktop computer 
+528 959 n03187595 dial telephone, dial phone 
+529 966 n03188531 diaper, nappy, napkin 
+530 523 n03196217 digital clock 
+531 529 n03197337 digital watch 
+532 315 n03201208 dining table, board 
+533 821 n03207743 dishrag, dishcloth 
+534 667 n03207941 dishwasher, dish washer, dishwashing machine 
+535 579 n03208938 disk brake, disc brake 
+536 715 n03216828 dock, dockage, docking facility 
+537 253 n03218198 dogsled, dog sled, dog sleigh 
+538 897 n03220513 dome 
+539 972 n03223299 doormat, welcome mat 
+540 834 n03240683 drilling platform, offshore rig 
+541 336 n03249569 drum, membranophone, tympan 
+542 799 n03250847 drumstick 
+543 1000 n03255030 dumbbell 
+544 662 n03259280 Dutch oven 
+545 512 n03271574 electric fan, blower 
+546 346 n03272010 electric guitar 
+547 262 n03272562 electric locomotive 
+548 316 n03290653 entertainment center 
+549 879 n03291819 envelope 
+550 660 n03297495 espresso maker 
+551 808 n03314780 face powder 
+552 796 n03325584 feather boa, boa 
+553 305 n03337140 file, file cabinet, filing cabinet 
+554 235 n03344393 fireboat 
+555 279 n03345487 fire engine, fire truck 
+556 919 n03347037 fire screen, fireguard 
+557 995 n03355925 flagpole, flagstaff 
+558 356 n03372029 flute, transverse flute 
+559 309 n03376595 folding chair 
+560 784 n03379051 football helmet 
+561 261 n03384352 forklift 
+562 712 n03388043 fountain 
+563 934 n03388183 fountain pen 
+564 299 n03388549 four-poster 
+565 256 n03393912 freight car 
+566 348 n03394916 French horn, horn 
+567 671 n03400231 frying pan, frypan, skillet 
+568 757 n03404251 fur coat 
+569 280 n03417042 garbage truck, dustcart 
+570 971 n03424325 gasmask, respirator, gas helmet 
+571 567 n03425413 gas pump, gasoline pump, petrol pump, island dispenser 
+572 955 n03443371 goblet 
+573 275 n03444034 go-kart 
+574 792 n03445777 golf ball 
+575 276 n03445924 golfcart, golf cart 
+576 236 n03447447 gondola 
+577 337 n03447721 gong, tam-tam 
+578 911 n03450230 gown 
+579 227 n03452741 grand piano, grand 
+580 684 n03457902 greenhouse, nursery, glasshouse 
+581 725 n03459775 grille, radiator grille 
+582 703 n03461385 grocery store, grocery, food market, market 
+583 517 n03467068 guillotine 
+584 581 n03476684 hair slide 
+585 895 n03476991 hair spray 
+586 249 n03478589 half track 
+587 375 n03481172 hammer 
+588 840 n03482405 hamper 
+589 505 n03483316 hand blower, blow dryer, blow drier, hair dryer, hair drier 
+590 551 n03485407 hand-held computer, hand-held microcomputer 
+591 750 n03485794 handkerchief, hankie, hanky, hankey 
+592 573 n03492542 hard disc, hard disk, fixed disk 
+593 350 n03494278 harmonica, mouth organ, harp, mouth harp 
+594 344 n03495258 harp 
+595 554 n03496892 harvester, reaper 
+596 369 n03498962 hatchet 
+597 787 n03527444 holster 
+598 696 n03529860 home theater, home theatre 
+599 730 n03530642 honeycomb 
+600 562 n03532672 hook, claw 
+601 802 n03534580 hoopskirt, crinoline 
+602 924 n03535780 horizontal bar, high bar 
+603 293 n03538406 horse cart, horse-cart 
+604 525 n03544143 hourglass 
+605 980 n03584254 iPod 
+606 659 n03584829 iron, smoothing iron 
+607 592 n03590841 jack-o'-lantern 
+608 748 n03594734 jean, blue jean, denim 
+609 269 n03594945 jeep, landrover 
+610 961 n03595614 jersey, T-shirt, tee shirt 
+611 963 n03598930 jigsaw puzzle 
+612 294 n03599486 jinrikisha, ricksha, rickshaw 
+613 560 n03602883 joystick 
+614 770 n03617480 kimono 
+615 773 n03623198 knee pad 
+616 582 n03627232 knot 
+617 918 n03630383 lab coat, laboratory coat 
+618 892 n03633091 ladle 
+619 814 n03637318 lampshade, lamp shade 
+620 228 n03642806 laptop, laptop computer 
+621 374 n03649909 lawn mower, mower 
+622 988 n03657121 lens cap, lens cover 
+623 371 n03658185 letter opener, paper knife, paperknife 
+624 687 n03661043 library 
+625 238 n03662601 lifeboat 
+626 546 n03666591 lighter, light, igniter, ignitor 
+627 270 n03670208 limousine, limo 
+628 244 n03673027 liner, ocean liner 
+629 867 n03676483 lipstick, lip rouge 
+630 973 n03680355 Loafer 
+631 894 n03690938 lotion 
+632 508 n03691459 loudspeaker, speaker, speaker unit, loudspeaker system, speaker system 
+633 536 n03692522 loupe, jeweler's loupe 
+634 697 n03697007 lumbermill, sawmill 
+635 532 n03706229 magnetic compass 
+636 818 n03709823 mailbag, postbag 
+637 917 n03710193 mailbox, letter box 
+638 782 n03710637 maillot 
+639 977 n03710721 maillot, tank suit 
+640 763 n03717622 manhole cover 
+641 338 n03720891 maraca 
+642 339 n03721384 marimba, xylophone 
+643 781 n03724870 mask 
+644 984 n03729826 matchstick 
+645 598 n03733131 maypole 
+646 922 n03733281 maze, labyrinth 
+647 946 n03733805 measuring cup 
+648 302 n03742115 medicine chest, medicine cabinet 
+649 717 n03743016 megalith, megalithic structure 
+650 509 n03759954 microphone, mike 
+651 661 n03761084 microwave, microwave oven 
+652 866 n03763968 military uniform 
+653 875 n03764736 milk can 
+654 920 n03769881 minibus 
+655 880 n03770439 miniskirt, mini 
+656 271 n03770679 minivan 
+657 251 n03773504 missile 
+658 871 n03775071 mitten 
+659 829 n03775546 mixing bowl 
+660 290 n03776460 mobile home, manufactured home 
+661 272 n03777568 Model T 
+662 764 n03777754 modem 
+663 686 n03781244 monastery 
+664 869 n03782006 monitor 
+665 277 n03785016 moped 
+666 824 n03786901 mortar 
+667 854 n03787032 mortarboard 
+668 691 n03788195 mosque 
+669 852 n03788365 mosquito net 
+670 260 n03791053 motor scooter, scooter 
+671 255 n03792782 mountain bike, all-terrain bike, off-roader 
+672 728 n03792972 mountain tent 
+673 511 n03793489 mouse, computer mouse 
+674 599 n03794056 mousetrap 
+675 284 n03796401 moving van 
+676 588 n03803284 muzzle 
+677 585 n03804744 nail 
+678 595 n03814639 neck brace 
+679 755 n03814906 necklace 
+680 915 n03825788 nipple 
+681 552 n03832673 notebook, notebook computer 
+682 699 n03837869 obelisk 
+683 354 n03838899 oboe, hautboy, hautbois 
+684 351 n03840681 ocarina, sweet potato 
+685 520 n03841143 odometer, hodometer, mileometer, milometer 
+686 513 n03843555 oil filter 
+687 333 n03854065 organ, pipe organ 
+688 870 n03857828 oscilloscope, scope, cathode-ray oscilloscope, CRO 
+689 937 n03866082 overskirt 
+690 295 n03868242 oxcart 
+691 506 n03868863 oxygen mask 
+692 921 n03871628 packet 
+693 826 n03873416 paddle, boat paddle 
+694 564 n03874293 paddlewheel, paddle wheel 
+695 584 n03874599 padlock 
+696 504 n03876231 paintbrush 
+697 759 n03877472 pajama, pyjama, pj's, jammies 
+698 685 n03877845 palace 
+699 352 n03884397 panpipe, pandean pipe, syrinx 
+700 877 n03887697 paper towel 
+701 942 n03888257 parachute, chute 
+702 994 n03888605 parallel bars, bars 
+703 306 n03891251 park bench 
+704 527 n03891332 parking meter 
+705 257 n03895866 passenger car, coach, carriage 
+706 679 n03899768 patio, terrace 
+707 843 n03902125 pay-phone, pay-station 
+708 732 n03903868 pedestal, plinth, footstall 
+709 842 n03908618 pencil box, pencil case 
+710 850 n03908714 pencil sharpener 
+711 883 n03916031 perfume, essence 
+712 783 n03920288 Petri dish 
+713 789 n03924679 photocopier 
+714 575 n03929660 pick, plectrum, plectron 
+715 926 n03929855 pickelhaube 
+716 722 n03930313 picket fence, paling 
+717 281 n03930630 pickup, pickup truck 
+718 596 n03933933 pier 
+719 931 n03935335 piggy bank, penny bank 
+720 901 n03937543 pill bottle 
+721 888 n03938244 pillow 
+722 841 n03942813 ping-pong ball 
+723 565 n03944341 pinwheel 
+724 245 n03947888 pirate, pirate ship 
+725 983 n03950228 pitcher, ewer 
+726 372 n03954731 plane, carpenter's plane, woodworking plane 
+727 693 n03956157 planetarium 
+728 964 n03958227 plastic bag 
+729 731 n03961711 plate rack 
+730 381 n03967562 plow, plough 
+731 378 n03970156 plunger, plumber's helper 
+732 857 n03976467 Polaroid camera, Polaroid Land camera 
+733 923 n03976657 pole 
+734 285 n03977966 police van, police wagon, paddy wagon, patrol wagon, wagon, black Maria 
+735 855 n03980874 poncho 
+736 314 n03982430 pool table, billiard table, snooker table 
+737 788 n03983396 pop bottle, soda bottle 
+738 838 n03991062 pot, flowerpot 
+739 566 n03992509 potter's wheel 
+740 373 n03995372 power drill 
+741 769 n03998194 prayer rug, prayer mat 
+742 556 n04004767 printer 
+743 702 n04005630 prison, prison house 
+744 542 n04008634 projectile, missile 
+745 534 n04009552 projector 
+746 572 n04019541 puck, hockey puck 
+747 846 n04023962 punching bag, punch bag, punching ball, punchball 
+748 939 n04026417 purse 
+749 862 n04033901 quill, quill pen 
+750 976 n04033995 quilt, comforter, comfort, puff 
+751 273 n04037443 racer, race car, racing car 
+752 860 n04039381 racket, racquet 
+753 571 n04040759 radiator 
+754 863 n04041544 radio, wireless 
+755 537 n04044716 radio telescope, radio reflector 
+756 927 n04049303 rain barrel 
+757 286 n04065272 recreational vehicle, RV, R.V. 
+758 570 n04067472 reel 
+759 965 n04069434 reflex camera 
+760 668 n04070727 refrigerator, icebox 
+761 578 n04074963 remote control, remote 
+762 694 n04081281 restaurant, eating house, eating place, eatery 
+763 219 n04086273 revolver, six-gun, six-shooter 
+764 541 n04090263 rifle 
+765 310 n04099969 rocking chair, rocker 
+766 663 n04111531 rotisserie 
+767 997 n04116512 rubber eraser, rubber, pencil eraser 
+768 876 n04118538 rugby ball 
+769 519 n04118776 rule, ruler 
+770 760 n04120489 running shoe 
+771 753 n04125021 safe 
+772 586 n04127249 safety pin 
+773 952 n04131690 saltshaker, salt shaker 
+774 751 n04133789 sandal 
+775 938 n04136333 sarong 
+776 355 n04141076 sax, saxophone 
+777 809 n04141327 scabbard 
+778 521 n04141975 scale, weighing machine 
+779 962 n04146614 school bus 
+780 221 n04147183 schooner 
+781 729 n04149813 scoreboard 
+782 510 n04152593 screen, CRT screen 
+783 587 n04153751 screw 
+784 379 n04154565 screwdriver 
+785 589 n04162706 seat belt, seatbelt 
+786 559 n04179913 sewing machine 
+787 800 n04192698 shield, buckler 
+788 709 n04200800 shoe shop, shoe-shop, shoe store 
+789 832 n04201297 shoji 
+790 950 n04204238 shopping basket 
+791 259 n04204347 shopping cart 
+792 380 n04208210 shovel 
+793 868 n04209133 shower cap 
+794 747 n04209239 shower curtain 
+795 590 n04228054 ski 
+796 776 n04229816 ski mask 
+797 943 n04235860 sleeping bag 
+798 549 n04238763 slide rule, slipstick 
+799 726 n04239074 sliding door 
+800 557 n04243546 slot, one-armed bandit 
+801 507 n04251144 snorkel 
+802 288 n04252077 snowmobile 
+803 278 n04252225 snowplow, snowplough 
+804 960 n04254120 soap dispenser 
+805 222 n04254680 soccer ball 
+806 986 n04254777 sock 
+807 577 n04258138 solar dish, solar collector, solar furnace 
+808 925 n04259630 sombrero 
+809 822 n04263257 soup bowl 
+810 858 n04264628 space bar 
+811 515 n04265275 space heater 
+812 234 n04266014 space shuttle 
+813 676 n04270147 spatula 
+814 237 n04273569 speedboat 
+815 600 n04275548 spider web, spider's web 
+816 775 n04277352 spindle 
+817 274 n04285008 sports car, sport car 
+818 593 n04286575 spotlight, spot 
+819 804 n04296562 stage 
+820 263 n04310018 steam locomotive 
+821 680 n04311004 steel arch bridge 
+822 340 n04311174 steel drum 
+823 530 n04317175 stethoscope 
+824 998 n04325704 stole 
+825 724 n04326547 stone wall 
+826 528 n04328186 stopwatch, stop watch 
+827 516 n04330267 stove 
+828 514 n04332243 strainer 
+829 287 n04335435 streetcar, tram, tramcar, trolley, trolley car 
+830 957 n04336792 stretcher 
+831 311 n04344873 studio couch, day bed 
+832 692 n04346328 stupa, tope 
+833 247 n04347754 submarine, pigboat, sub, U-boat 
+834 794 n04350905 suit, suit of clothes 
+835 526 n04355338 sundial 
+836 574 n04355933 sunglass 
+837 535 n04356056 sunglasses, dark glasses, shades 
+838 810 n04357314 sunscreen, sunblock, sun blocker 
+839 681 n04366367 suspension bridge 
+840 828 n04367480 swab, swob, mop 
+841 837 n04370456 sweatshirt 
+842 945 n04371430 swimming trunks, bathing trunks 
+843 569 n04371774 swing 
+844 561 n04372370 switch, electric switch, electrical switch 
+845 531 n04376876 syringe 
+846 304 n04380533 table lamp 
+847 250 n04389033 tank, army tank, armored combat vehicle, armoured combat vehicle 
+848 978 n04392985 tape player 
+849 675 n04398044 teapot 
+850 786 n04399382 teddy, teddy bear 
+851 944 n04404412 television, television system 
+852 970 n04409515 tennis ball 
+853 989 n04417672 thatch, thatched roof 
+854 903 n04418357 theater curtain, theatre curtain 
+855 758 n04423845 thimble 
+856 555 n04428191 thresher, thrasher, threshing machine 
+857 308 n04429376 throne 
+858 780 n04435653 tile roof 
+859 664 n04442312 toaster 
+860 710 n04443257 tobacco shop, tobacconist shop, tobacconist 
+861 312 n04447861 toilet seat 
+862 594 n04456115 torch 
+863 700 n04458633 totem pole 
+864 282 n04461696 tow truck, tow car, wrecker 
+865 711 n04462240 toyshop 
+866 289 n04465501 tractor 
+867 283 n04467665 trailer truck, tractor trailer, trucking rig, rig, articulated lorry, semi 
+868 766 n04476259 tray 
+869 825 n04479046 trench coat 
+870 291 n04482393 tricycle, trike, velocipede 
+871 242 n04483307 trimaran 
+872 597 n04485082 tripod 
+873 678 n04486054 triumphal arch 
+874 882 n04487081 trolleybus, trolley coach, trackless trolley 
+875 349 n04487394 trombone 
+876 765 n04493381 tub, vat 
+877 727 n04501370 turnstile 
+878 544 n04505470 typewriter keyboard 
+879 220 n04507155 umbrella 
+880 292 n04509417 unicycle, monocycle 
+881 334 n04515003 upright, upright piano 
+882 666 n04517823 vacuum, vacuum cleaner 
+883 874 n04522168 vase 
+884 990 n04523525 vault 
+885 969 n04525038 velvet 
+886 558 n04525305 vending machine 
+887 790 n04532106 vestment 
+888 682 n04532670 viaduct 
+889 343 n04536866 violin, fiddle 
+890 936 n04540053 volleyball 
+891 665 n04542943 waffle iron 
+892 524 n04548280 wall clock 
+893 928 n04548362 wallet, billfold, notecase, pocketbook 
+894 317 n04550184 wardrobe, closet, press 
+895 231 n04552348 warplane, military plane 
+896 906 n04553703 washbasin, handbasin, washbowl, lavabo, wash-hand basin 
+897 669 n04554684 washer, automatic washer, washing machine 
+898 958 n04557648 water bottle 
+899 819 n04560804 water jug 
+900 795 n04562935 water tower 
+901 772 n04579145 whiskey jug 
+902 502 n04579432 whistle 
+903 899 n04584207 wig 
+904 912 n04589890 window screen 
+905 904 n04590129 window shade 
+906 935 n04591157 Windsor tie 
+907 831 n04591713 wine bottle 
+908 503 n04592741 wing 
+909 672 n04596742 wok 
+910 951 n04597913 wooden spoon 
+911 815 n04599235 wool, woolen, woollen 
+912 723 n04604644 worm fence, snake fence, snake-rail fence, Virginia fence 
+913 248 n04606251 wreck 
+914 240 n04612504 yawl 
+915 714 n04613696 yurt 
+916 553 n06359193 web site, website, internet site, site 
+917 930 n06596364 comic book 
+918 791 n06785654 crossword puzzle, crossword 
+919 932 n06794110 street sign 
+920 861 n06874185 traffic light, traffic signal, stoplight 
+921 774 n07248320 book jacket, dust cover, dust jacket, dust wrapper 
+922 803 n07565083 menu 
+923 754 n07579787 plate 
+924 813 n07583066 guacamole 
+925 844 n07584110 consomme 
+926 771 n07590611 hot pot, hotpot 
+927 793 n07613480 trifle 
+928 974 n07614500 ice cream, icecream 
+929 968 n07615774 ice lolly, lolly, lollipop, popsicle 
+930 873 n07684084 French loaf 
+931 768 n07693725 bagel, beigel 
+932 975 n07695742 pretzel 
+933 993 n07697313 cheeseburger 
+934 885 n07697537 hotdog, hot dog, red hot 
+935 734 n07711569 mashed potato 
+936 736 n07714571 head cabbage 
+937 737 n07714990 broccoli 
+938 738 n07715103 cauliflower 
+939 739 n07716358 zucchini, courgette 
+940 740 n07716906 spaghetti squash 
+941 741 n07717410 acorn squash 
+942 742 n07717556 butternut squash 
+943 743 n07718472 cucumber, cuke 
+944 744 n07718747 artichoke, globe artichoke 
+945 735 n07720875 bell pepper 
+946 745 n07730033 cardoon 
+947 746 n07734744 mushroom 
+948 318 n07742313 Granny Smith 
+949 229 n07745940 strawberry 
+950 319 n07747607 orange 
+951 320 n07749582 lemon 
+952 321 n07753113 fig 
+953 322 n07753275 pineapple, ananas 
+954 323 n07753592 banana 
+955 324 n07754684 jackfruit, jak, jack 
+956 325 n07760859 custard apple 
+957 326 n07768694 pomegranate 
+958 816 n07802026 hay 
+959 999 n07831146 carbonara 
+960 953 n07836838 chocolate sauce, chocolate syrup 
+961 864 n07860988 dough 
+962 806 n07871810 meat loaf, meatloaf 
+963 948 n07873807 pizza, pizza pie 
+964 830 n07875152 potpie 
+965 900 n07880968 burrito 
+966 798 n07892512 red wine 
+967 947 n07920052 espresso 
+968 859 n07930864 cup 
+969 823 n07932039 eggnog 
+970 361 n09193705 alp 
+971 992 n09229709 bubble 
+972 359 n09246464 cliff, drop, drop-off 
+973 365 n09256479 coral reef 
+974 368 n09288635 geyser 
+975 366 n09332890 lakeside, lakeshore 
+976 363 n09399592 promontory, headland, head, foreland 
+977 364 n09421951 sandbar, sand bar 
+978 367 n09428293 seashore, coast, seacoast, sea-coast 
+979 360 n09468604 valley, vale 
+980 362 n09472597 volcano 
+981 954 n09835506 ballplayer, baseball player 
+982 848 n10148035 groom, bridegroom 
+983 982 n10565667 scuba diver 
+984 330 n11879895 rapeseed 
+985 357 n11939491 daisy 
+986 358 n12057211 yellow lady's slipper, yellow lady-slipper, Cypripedium calceolus, Cypripedium parviflorum 
+987 331 n12144580 corn 
+988 327 n12267677 acorn 
+989 328 n12620546 hip, rose hip, rosehip 
+990 332 n12768682 buckeye, horse chestnut, conker 
+991 886 n12985857 coral fungus 
+992 913 n12998815 agaric 
+993 956 n13037406 gyromitra 
+994 893 n13040303 stinkhorn, carrion fungus 
+995 878 n13044778 earthstar 
+996 812 n13052670 hen-of-the-woods, hen of the woods, Polyporus frondosus, Grifola frondosa 
+997 981 n13054560 bolete 
+998 329 n13133613 ear, spike, capitulum 
+999 889 n15075141 toilet tissue, toilet paper, bathroom tissue 
