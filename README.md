@@ -7,13 +7,14 @@ and some python script
 [support operator limit](./doc/Operator-ykx-limit.md)
 
 ## environment
+```
 pip3 install protobuf==3.8.0  
 pip3 install onnx==1.6.0
-
+```
 
 ## Usage
-```
-#compiler command
+```shell
+# compile
 make
 
 # parse onnx model
