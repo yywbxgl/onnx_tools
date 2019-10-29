@@ -3,6 +3,8 @@
 #include "optimizer/fuse_matmul_add_bias_into_gemm.h"
 #include "optimizer/convert_autoPad_to_pads.h"
 #include "optimizer/convert_flatten_to_reshape.h"
+#include "optimizer/convert_shape_to_inilizter.h"
+#include "optimizer/convert_constant_to_initializer.h"
 
 using namespace std;
 
@@ -151,18 +153,18 @@ int main(int argc, char const *argv[])
     eliminate_node(model_proto, "Dropout");
     // eliminate_node(model_proto, "ReduceMean");
     // eliminate_node(model_proto, "Transpose");
-
     // fuse_matmul_add_bias_into_gemm(model_proto);
-
     // auto_pad_convert(model_proto);
-
     // modify_input(model_proto);
     // eliminate_softmax_attributes(model_proto);
     // modify_weights(model_proto);
     // clear_value_info(model_proto);
-    //add_softmax_node(model_proto);
+    // add_softmax_node(model_proto);
+
 
     convert_flatten_to_reshape(model_proto);
+    convert_shape_to_inilizter(model_proto);
+    // convert_constant_to_initializer(model_proto);
 
     {
         // Write the new model back to disk.

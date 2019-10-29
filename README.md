@@ -6,8 +6,8 @@ and some python script
 [support operator limit](./doc/Operator-ykx-limit.md)
 
 ## environment
-protobuf    v3.8.0  
-onnx.proto  v1.6.0
+pip3 install protobuf==3.8.0 
+pip3 install onnx==1.6.0
 
 
 ## Usage
@@ -17,25 +17,26 @@ onnx.proto  v1.6.0
 
 # onnx operator convert
 ./bin/op_convert  input.onnx  output_name
-
-# check onnx model
-python3 ./python_tool/cherck_model.py  out.onnx 
-
-# run onnx model
-python3 ./python_tool/onnx_run2.py  out.onnx
-
 ```
 
 
 ## Complie command
 ```
+# compile proto file 
 protoc -I=$SRC_DIR --cpp_out=$DST_DIR $SRC_DIR/addressbook.proto
 
-g++ onnx_parse.cpp  onnx.pb.cc  /usr/local/lib/libprotobuf.a -std=c++11 -pthread -I/usr/local/include -o onnxParse
+# onnx parser
+g++ onnx_parse.cpp  onnx.pb.cc  /usr/local/lib/libprotobuf.a -std=c++11 -pthread -I/usr/local/include -o bin/onnxParse
+g++ onnx_parse.cpp  onnx.pb.cc  /usr/local/lib/libprotobuf.a -std=c++11 -pthread -I/usr/local/include -D RAW_DATA -o bin/onnxParse_weight
 
-g++ onnx_parse.cpp  onnx.pb.cc  /usr/local/lib/libprotobuf.a -std=c++11 -pthread -I/usr/local/include -D RAW_DATA -o onnxParse_weight
+# onnx shape inference
+g++ shape_inference.cpp  onnx.pb.cc  /usr/local/lib/libprotobuf.a   -std=c++11 -pthread -I/usr/local/include -I./  -o  bin/shape_inference
+g++ shape_inference2.cpp  onnx.pb.cc  /usr/local/lib/libonnx.a   /usr/local/lib/libonnx_proto.a  /usr/local/lib/libprotobuf.a   -std=c++11 -pthread -I/usr/local/include -I./  -o  bin/shape_inference2
 
-g++ op_convert.cpp  onnx.pb.cc  /usr/local/lib/libprotobuf.a -std=c++11 -pthread -I/usr/local/include -o op_convert
+# onnx optimizer
+g++ optimizer.cpp   /usr/local/lib/libonnx.a   /usr/local/lib/libonnx_proto.a   /usr/local/lib/libprotobuf.a  -std=c++11 -pthread -I/usr/local/include -I./  -o  bin/onnx_optimizer
 
-g++ main.cpp  onnx.pb.cc  /usr/local/lib/libprotobuf.a -std=c++11 -pthread -I/usr/local/include -I./ -o bin/op_convert
+# onnx operator convertor
+g++ operator_convert.cpp   onnx.pb.cc  /usr/local/lib/libprotobuf.a  -std=c++11 -pthread -I/usr/local/include  -I./  -o  bin/op_convert
+
 ```

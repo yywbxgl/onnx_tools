@@ -109,7 +109,7 @@ void get_layer_params (const onnx::NodeProto& node_proto) {
 }
 
 
-void parse_tensor_proto(const onnx::TensorProto& tensor_proto)
+void parse_tensor_proto(const onnx::TensorProto& tensor_proto, bool raw_data=false)
 {
   cout << "name: " << tensor_proto.name() << endl;
   cout << "dims: ";
@@ -120,11 +120,16 @@ void parse_tensor_proto(const onnx::TensorProto& tensor_proto)
   cout << endl;
   std::string date_type = onnx::TensorProto::DataType_Name(tensor_proto.data_type());
   cout << "date_type: " << date_type << endl;
-  cout << "segment begin: " << tensor_proto.segment().begin() << endl;
-  cout << "segment end: " << tensor_proto.segment().end() << endl;
+  //cout << "segment begin: " << tensor_proto.segment().begin() << endl;
+  //cout << "segment end: " << tensor_proto.segment().end() << endl;
 
 #ifdef RAW_DATA
-  //todo  只解析了float32 与 int64两种数据类型
+  raw_data = true;
+#endif
+
+if (raw_data)
+{
+//todo  只解析了float32 与 int64两种数据类型
   if (date_type == "FLOAT")
   {
     cout << "float_data = [" << endl;
@@ -188,8 +193,7 @@ void parse_tensor_proto(const onnx::TensorProto& tensor_proto)
 
     cout << "]" << endl;
   }
-
-#endif
+}
 
   cout << endl;
 }
@@ -288,6 +292,16 @@ void parse_attribute_proto(const onnx::AttributeProto& attr_proto)
       cout << attr_proto.floats(i) << " ";
     }
     cout << "]" << endl;
+  }
+  else if  (attr_type == "TENSOR")
+  {
+    parse_tensor_proto(attr_proto.t(), true);
+    // cout << "Value = [" ;
+    // for (int i=0; i < attr_proto.floats_size(); ++i)
+    // {
+    //   cout << attr_proto.floats(i) << " ";
+    // }
+    // cout << "]" << endl;
   }
   else 
   {

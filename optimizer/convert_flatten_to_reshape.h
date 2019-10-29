@@ -1,7 +1,7 @@
 #include "onnx.pb.h"
 using namespace std;
 
-// 将conv等op中的auto_pad属性修改为padding属性
+// 将onnx model 中的flatten opearator 修改为 reshape
 bool convert_flatten_to_reshape(onnx::ModelProto& model_proto)
 {
     google::protobuf::RepeatedPtrField<onnx::NodeProto>::iterator it; 
