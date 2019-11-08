@@ -136,12 +136,12 @@ int main(int argc, char const *argv[])
 
     {
         // Read the existing model.
-        std::fstream input(argv[1], ios::in | ios::binary);
-        if (!input) 
+        std::fstream input_model(argv[1], ios::in | ios::binary);
+        if (!input_model) 
         {
             std::cout << argv[1] << ": file not found. Creating a new file." << '\n';
         } 
-        else if (!model_proto.ParseFromIstream(&input)) 
+        else if (!model_proto.ParseFromIstream(&input_model)) 
         {
             std::cerr << "Failed to parse onnx model." << std::endl;
             return -1;
@@ -169,8 +169,8 @@ int main(int argc, char const *argv[])
     {
         // Write the new model back to disk.
         std::string output_file_name  = std::string(argv[2]) + ".onnx";
-        fstream output(output_file_name, ios::out | ios::trunc | ios::binary);
-        if (!model_proto.SerializeToOstream(&output)) 
+        fstream output_model(output_file_name, ios::out | ios::trunc | ios::binary);
+        if (!model_proto.SerializeToOstream(&output_model)) 
         {
             std::cerr << "Failed to write address book." << endl;
             return -1;

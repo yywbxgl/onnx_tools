@@ -1,25 +1,31 @@
 
+CFLAGS:=  -std=c++11 -pthread  -I/usr/local/include  -I./  -g
 
-CFLAGS:=  -std=c++11 -pthread  -I/usr/local/include  -I./ 
 
+.PHONY: all traget  onnx_parse  onnx_parse_weight shape_inference optimizer  operator_convert clean  inception_convert
 
-.PHONY: all  onnxParser  onnxParser_weight shapeInference optimizer  operatorConvert
-all: onnxParser onnxParser_weight  shape_inference optimizer op_convert
+all:
+	$(MAKE) -j8 traget
 
-onnxParser: 
-	g++  onnx_parse.cpp  onnx.pb.cc  /usr/local/lib/libprotobuf.a  ${CFLAGS} -o bin/onnxParse
+traget: onnx_parse onnx_parse_weight  shape_inference optimizer operator_convert
 
-onnxParser_weight: 
-	g++  onnx_parse.cpp  onnx.pb.cc  /usr/local/lib/libprotobuf.a  ${CFLAGS} -D RAW_DATA -o bin/onnxParse
+clean:
+	rm bin/*
+
+onnx_parse: 
+	g++  onnx_parse.cpp  onnx.pb.cc  /usr/local/lib/libprotobuf.a  ${CFLAGS} -o bin/onnx_parse
+
+onnx_parse_weight: 
+	g++  onnx_parse.cpp  onnx.pb.cc  /usr/local/lib/libprotobuf.a  ${CFLAGS} -D RAW_DATA -o bin/onnx_parse_weight
 
 shape_inference: 
 	g++  shape_inference.cpp  onnx.pb.cc  /usr/local/lib/libprotobuf.a  ${CFLAGS} -o  bin/shape_inference
 
 optimizer: 
-	g++  optimizer.cpp  /usr/local/lib/libonnx.a   /usr/local/lib/libonnx_proto.a  /usr/local/lib/libprotobuf.a  ${CFLAGS} -o bin/onnx_optimizer
+	g++  optimizer.cpp  /usr/local/lib/libonnx.a   /usr/local/lib/libonnx_proto.a  /usr/local/lib/libprotobuf.a  ${CFLAGS} -o bin/optimizer
 
-op_convert: 
-	g++  operator_convert.cpp  onnx.pb.cc  /usr/local/lib/libprotobuf.a  ${CFLAGS} -o bin/op_convert
+operator_convert: 
+	g++  operator_convert.cpp  onnx.pb.cc  /usr/local/lib/libprotobuf.a  ${CFLAGS} -o bin/operator_convert
 
-clean:
-	rm bin/*
+inception_convert: 
+	g++  inception_convert.cpp  onnx.pb.cc  /usr/local/lib/libprotobuf.a  ${CFLAGS} -o bin/inception_convert

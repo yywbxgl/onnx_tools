@@ -9,7 +9,7 @@ and some python script
 ## environment
 ```
 pip3 install protobuf==3.8.0  
-pip3 install onnx==1.6.0
+pip3 install onnx==1.5.0
 ```
 
 ## Usage
