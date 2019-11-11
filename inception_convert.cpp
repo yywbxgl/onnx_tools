@@ -107,13 +107,6 @@ void eliminate_deadend_node(onnx::ModelProto& model_proto)
                     it->input(0).c_str(), it->output(0).c_str()); 
                 model_proto.mutable_graph()->mutable_node()->erase(it);
 
-                //删除input
-                // if (it->output_size() != 0)
-                // {
-                //     //printf("remove input element %s  %d\n", it->output(0).c_str(), it->output_size());
-                //     remove_input_element(model_proto, it->output(0));
-                // }
-
                 break;
             }
         }
@@ -129,16 +122,17 @@ void eliminate_deadend_node(onnx::ModelProto& model_proto)
 void modify_input_output(onnx::ModelProto& model_proto)
 {
     //修改output
-    model_proto.mutable_graph()->mutable_output(0)->mutable_type()->mutable_tensor_type()->mutable_shape()->mutable_dim(0)->set_dim_value(1);
-    model_proto.mutable_graph()->mutable_output(0)->mutable_type()->mutable_tensor_type()->mutable_shape()->mutable_dim(1)->set_dim_value(192);
-    model_proto.mutable_graph()->mutable_output(0)->mutable_type()->mutable_tensor_type()->mutable_shape()->mutable_dim(2)->set_dim_value(28);
-    model_proto.mutable_graph()->mutable_output(0)->mutable_type()->mutable_tensor_type()->mutable_shape()->mutable_dim(3)->set_dim_value(28);
-    // model_proto.mutable_graph()->mutable_output(0)->mutable_type()->mutable_tensor_type()->mutable_shape()->add_dim()->set_dim_value(28);
-    // model_proto.mutable_graph()->mutable_output(0)->mutable_type()->mutable_tensor_type()->mutable_shape()->add_dim()->set_dim_value(28);
-    cout << "output shape: "<< model_proto.graph().output(0).type().tensor_type().shape().dim(0).dim_value() << " " << 
-        model_proto.graph().output(0).type().tensor_type().shape().dim(1).dim_value() << " " <<
-        model_proto.graph().output(0).type().tensor_type().shape().dim(2).dim_value() << " " << 
-        model_proto.graph().output(0).type().tensor_type().shape().dim(3).dim_value() << endl;
+    model_proto.mutable_graph()->mutable_output(0)->mutable_type()->mutable_tensor_type()->mutable_shape()->clear_dim();
+    // model_proto.mutable_graph()->mutable_output(0)->mutable_type()->mutable_tensor_type()->mutable_shape()->mutable_dim(0)->set_dim_value(1);
+    // model_proto.mutable_graph()->mutable_output(0)->mutable_type()->mutable_tensor_type()->mutable_shape()->mutable_dim(1)->set_dim_value(192);
+    // model_proto.mutable_graph()->mutable_output(0)->mutable_type()->mutable_tensor_type()->mutable_shape()->mutable_dim(2)->set_dim_value(28);
+    // model_proto.mutable_graph()->mutable_output(0)->mutable_type()->mutable_tensor_type()->mutable_shape()->mutable_dim(3)->set_dim_value(28);
+    // // model_proto.mutable_graph()->mutable_output(0)->mutable_type()->mutable_tensor_type()->mutable_shape()->add_dim()->set_dim_value(28);
+    // // model_proto.mutable_graph()->mutable_output(0)->mutable_type()->mutable_tensor_type()->mutable_shape()->add_dim()->set_dim_value(28);
+    // cout << "output shape: "<< model_proto.graph().output(0).type().tensor_type().shape().dim(0).dim_value() << " " << 
+    //     model_proto.graph().output(0).type().tensor_type().shape().dim(1).dim_value() << " " <<
+    //     model_proto.graph().output(0).type().tensor_type().shape().dim(2).dim_value() << " " << 
+    //     model_proto.graph().output(0).type().tensor_type().shape().dim(3).dim_value() << endl;
 }
 
 
@@ -168,13 +162,7 @@ void  eliminate_inception_nodes(onnx::ModelProto& model_proto)
             it->add_output("softmax_output");
         }
     }
-
-
-    modify_input_output(model_proto);
-
 }
-
-
 
 void change_pool_pad(onnx::ModelProto& model_proto)
 {
@@ -242,9 +230,11 @@ int main(int argc, char const *argv[])
     //dump_input_element(model_proto);
     //eliminate_deadend_node(model_proto);
 
-    change_pool_pad(model_proto);
+    // change_pool_pad(model_proto);
+
+    // clear_value_info(model_proto);
+
     modify_input_output(model_proto);
-    clear_value_info(model_proto);
 
     {
         // Write the new model back to disk.

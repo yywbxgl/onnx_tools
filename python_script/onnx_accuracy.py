@@ -44,9 +44,12 @@ def get_numpy_from_img(file):
     # x = x[:, :, 16:240, 16:240]
 
     # mean操作
-    x[0,0,:,:] -= 122.68
-    x[0,1,:,:] -= 116.779
-    x[0,2,:,:] -= 103.939
+    # x[0,0,:,:] -= 122.68
+    # x[0,1,:,:] -= 116.779
+    # x[0,2,:,:] -= 103.939
+    x[0,0,:,:] -= 124
+    x[0,1,:,:] -= 117
+    x[0,2,:,:] -= 104
 
     # scale 操作  1/58.8 = 0.017
     # x = x * 0.017
@@ -118,11 +121,13 @@ def onnx_ference(test_dir):
         print("top1_accuracy_rate: ", top1_num/total_num)
         print("top5_accuracy_rate: ", top5_num/total_num)
 
+    result_file = open("onnx_run_reslut.txt", "w")
     sorted_results = sorted(results.keys())
     for i in sorted_results :
         temp = "img[%03s]  lable[%-3s]  result[%-19s]   top1[%s]  top5[%s]"%\
             (i.split('.')[0],  results[i]["label"], results[i]["result"], results[i]["top1"], results[i]["top5"])
         print(temp)
+        result_file.write(temp + '\n')
     
     print("test dir: ", test_dir)   
     print("total: ", total_num)

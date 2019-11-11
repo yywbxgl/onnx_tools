@@ -37,14 +37,8 @@ def caffe_ference(net, test_dir):
     files= os.listdir(test_dir)
     sorted_files = sorted(files)
 
-    total_num = 0
-    top1_num = 0
-    top5_num = 0
-    
     for file in sorted_files:
         print(file)
-        total_num += 1
-        
         # cv2 读取后的数据为BGR方式
         x = get_numpy_from_img(test_dir + file)
         (a,b,c) = x.shape
@@ -62,19 +56,17 @@ def caffe_ference(net, test_dir):
         # print(output["prob_1"])
 
         output = np.array(output["prob"][0])
-        output = np.array(output)
-        output = np.reshape(output,(1000,))
         # print(output)
         # output = output[0]
 
         # 输出top5
         # print(np.max(output))
         # print(type(output))
-        #print(np.argsort(output))
+        # print(type(np.argsort(output)))
 
         sort_idx = np.flip(np.squeeze(np.argsort(output)))
         result = str(sort_idx[:5])
-        print(result)
+        # print(result)
         node = {}
         node["result"] = result
 
@@ -86,24 +78,16 @@ def caffe_ference(net, test_dir):
 
         if label in result:
             node["top5"] = "True"
-            top5_num +=1
         else:
             node["top5"] = "False"
 
         if label in str(sort_idx[:1]):
             node["top1"] = "True"
-            top1_num +=1
         else:
             node["top1"] = "False"
 
         print(node)
         results[file] = node
-        
-        print("total: ", total_num)
-        # print("top1 hit: ", top1_num)
-        # print("top5 hit: ", top5_num)
-        print("top1_accuracy_rate: ", top1_num/total_num)
-        print("top5_accuracy_rate: ", top5_num/total_num)
 
 
     total_num = len(results)
@@ -115,7 +99,10 @@ def caffe_ference(net, test_dir):
         temp = "img[%03s]  lable[%-3s]  result[%-19s]   top1[%s]  top5[%s]"%\
             (i.split('.')[0],  results[i]["label"], results[i]["result"], results[i]["top1"], results[i]["top5"])
         print(temp)
-
+        if results[i]["top1"] == "True":
+            top1_num += 1
+        if results[i]["top5"] == "True":
+            top5_num += 1
         
     print("total: ", total_num)
     print("top1 hit: ", top1_num)

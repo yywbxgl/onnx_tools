@@ -11,10 +11,6 @@ if len(sys.argv) != 2:
     sys.exit(-1)
 
 
-print("--------------")
-print(onnxruntime.RunOptions.run_log_severity_level)
-print("--------------")
-
 model = onnx.load(sys.argv[1])
 session = backend.prepare(model)
 
