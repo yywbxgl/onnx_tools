@@ -1,5 +1,5 @@
 
-CFLAGS:=  -std=c++11 -pthread  -I/usr/local/include  -I./  -g
+CFLAGS:=  -std=c++11 -pthread  -I./  -g 
 
 
 .PHONY: all traget  onnx_parse  onnx_parse_weight shape_inference optimizer  operator_convert clean  inception_convert

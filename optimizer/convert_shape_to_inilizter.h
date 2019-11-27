@@ -45,7 +45,7 @@ bool convert_shape_to_inilizter(onnx::ModelProto& model_proto)
             std::string shape_init =  shape_input + "shape_init";
             onnx::TensorProto* new_shape = model_proto.mutable_graph()->add_initializer();
             new_shape->set_name(shape_init);
-            new_shape->set_data_type(7);  //data_type = INT64
+            new_shape->set_data_type(onnx::TensorProto_DataType_INT64);  //data_type = INT64
             new_shape->add_dims(shape_input_shape.size());
             for (auto n :shape_input_shape)
             {
@@ -55,7 +55,7 @@ bool convert_shape_to_inilizter(onnx::ModelProto& model_proto)
             onnx::ValueInfoProto* new_input = model_proto.mutable_graph()->add_input();  
             new_input->set_name(shape_init);
             new_input->mutable_type()->mutable_tensor_type()->mutable_shape()->add_dim()->set_dim_value(shape_input_shape.size());
-            new_input->mutable_type()->mutable_tensor_type()->set_elem_type(7);
+            new_input->mutable_type()->mutable_tensor_type()->set_elem_type(onnx::TensorProto_DataType_INT64);
             cout << "add shape inilizer success." << endl;
 
             // step3. 修改下一层node的input, 并删除当前node
@@ -70,7 +70,7 @@ bool convert_shape_to_inilizter(onnx::ModelProto& model_proto)
 
             model_proto.mutable_graph()->mutable_node()->erase(it);
             cout << "eliminate current node success."  << endl << endl;
-            return true;;
+            break;
         }
     }
 

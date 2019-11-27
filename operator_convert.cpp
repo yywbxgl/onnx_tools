@@ -113,6 +113,21 @@ void eliminate_softmax_attributes(onnx::ModelProto& model_proto)
 }
 
 
+// 修改IR_version
+void modify_opset(onnx::ModelProto& model_proto)
+{
+    // model_proto.mutable_opset_import(0)->set_version(8);
+    model_proto.set_ir_version(6);
+
+    cout << "----------model------------- "  << endl;
+    cout << "ir_version: " << model_proto.ir_version() << endl;
+    cout << "opset_import = [" << endl;
+    for (int i=0; i<model_proto.opset_import_size(); ++i){
+        cout << "    domain: " << model_proto.opset_import(i).domain() << endl;
+        cout << "    version: " << model_proto.opset_import(i).version()  << endl;
+    }
+    return;
+}
 
 // 删除所有value_info保存的信息
 void clear_value_info(onnx::ModelProto& model_proto)
@@ -139,7 +154,7 @@ int main(int argc, char const *argv[])
         std::fstream input_model(argv[1], ios::in | ios::binary);
         if (!input_model) 
         {
-            std::cout << argv[1] << ": file not found. Creating a new file." << '\n';
+            std::cout << argv[1] << ": file not found." << '\n';
         } 
         else if (!model_proto.ParseFromIstream(&input_model)) 
         {
@@ -149,8 +164,8 @@ int main(int argc, char const *argv[])
     }
 
     // onnx convert
-    eliminate_node(model_proto, "Identity");
-    eliminate_node(model_proto, "Dropout");
+    // eliminate_node(model_proto, "Identity");
+    // eliminate_node(model_proto, "Dropout");
     // eliminate_node(model_proto, "ReduceMean");
     // eliminate_node(model_proto, "Transpose");
     // fuse_matmul_add_bias_into_gemm(model_proto);
@@ -162,14 +177,17 @@ int main(int argc, char const *argv[])
     // add_softmax_node(model_proto);
 
 
-    convert_flatten_to_reshape(model_proto);
-    convert_shape_to_inilizter(model_proto);
-    // convert_constant_to_initializer(model_proto);
+    // convert_flatten_to_reshape(model_proto);
+    // convert_shape_to_inilizter(model_proto);
+    // eliminate_node(model_proto, "Shape");
+    convert_constant_to_initializer(model_proto);
+
+    // modify_opset(model_proto);
 
     {
         // Write the new model back to disk.
         std::string output_file_name  = std::string(argv[2]) + ".onnx";
-        fstream output_model(output_file_name, ios::out | ios::trunc | ios::binary);
+        std::fstream output_model(output_file_name, ios::out | ios::trunc | ios::binary);
         if (!model_proto.SerializeToOstream(&output_model)) 
         {
             std::cerr << "Failed to write address book." << endl;

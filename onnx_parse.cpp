@@ -230,17 +230,17 @@ void parse_valueinfo_proto(const onnx::ValueInfoProto& valueinfo_proto)
    
 }
 
-void parse_TensorAnnotation(const onnx::TensorAnnotation& tensorAnnotation_proto)
-{
-  cout << "tensor_name: " << tensorAnnotation_proto.tensor_name() << endl;
-  for (int i =0; i< tensorAnnotation_proto.quant_parameter_tensor_names_size(); ++i)
-  {
-    cout << "tensor_name_key: " << tensorAnnotation_proto.quant_parameter_tensor_names(i).key() << endl;
-    cout << "tensor_name_value: " << tensorAnnotation_proto.quant_parameter_tensor_names(i).value() << endl;
-  }
-  cout <<endl;
+// void parse_TensorAnnotation(const onnx::TensorAnnotation& tensorAnnotation_proto)
+// {
+//   cout << "tensor_name: " << tensorAnnotation_proto.tensor_name() << endl;
+//   for (int i =0; i< tensorAnnotation_proto.quant_parameter_tensor_names_size(); ++i)
+//   {
+//     cout << "tensor_name_key: " << tensorAnnotation_proto.quant_parameter_tensor_names(i).key() << endl;
+//     cout << "tensor_name_value: " << tensorAnnotation_proto.quant_parameter_tensor_names(i).value() << endl;
+//   }
+//   cout <<endl;
 
-}
+// }
 
 void parse_attribute_proto(const onnx::AttributeProto& attr_proto)
 {
@@ -296,12 +296,6 @@ void parse_attribute_proto(const onnx::AttributeProto& attr_proto)
   else if  (attr_type == "TENSOR")
   {
     parse_tensor_proto(attr_proto.t(), true);
-    // cout << "Value = [" ;
-    // for (int i=0; i < attr_proto.floats_size(); ++i)
-    // {
-    //   cout << attr_proto.floats(i) << " ";
-    // }
-    // cout << "]" << endl;
   }
   else 
   {
@@ -396,10 +390,10 @@ void parse_graph_proto(const onnx::GraphProto& graph_proto)
   // 解析 quantization_annotation ？
   cout << "----------model graph quantization_annotation ------------- "  << endl;
   cout << "quantization_annotation = [" << endl;
-  for (int i =0; i< graph_proto.quantization_annotation_size(); ++i)
-  {
-    parse_TensorAnnotation(graph_proto.quantization_annotation(i));
-  }
+  // for (int i =0; i< graph_proto.quantization_annotation_size(); ++i)
+  // {
+  //   parse_TensorAnnotation(graph_proto.quantization_annotation(i));
+  // }
   cout << "]" << endl;
 
   // 解析 Nodes  中间层节点

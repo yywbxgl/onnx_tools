@@ -71,7 +71,7 @@ bool convert_flatten_to_reshape(onnx::ModelProto& model_proto)
             std::string reshape_weight =  flatten_input + "reshape_weight";
             onnx::TensorProto* new_shape = model_proto.mutable_graph()->add_initializer();
             new_shape->set_name(reshape_weight);
-            new_shape->set_data_type(7);  //data_type = INT64
+            new_shape->set_data_type(onnx::TensorProto_DataType_INT64);  //data_type = INT64
             new_shape->add_dims(2);
             new_shape->add_int64_data(a);  // todo 根据gemm B 参数  以及该层的output形状  来确认reshape形状
             new_shape->add_int64_data(b); 
@@ -79,7 +79,7 @@ bool convert_flatten_to_reshape(onnx::ModelProto& model_proto)
             onnx::ValueInfoProto* new_input = model_proto.mutable_graph()->add_input();  
             new_input->set_name(reshape_weight);
             new_input->mutable_type()->mutable_tensor_type()->mutable_shape()->add_dim()->set_dim_value(2);
-            new_input->mutable_type()->mutable_tensor_type()->set_elem_type(7);
+            new_input->mutable_type()->mutable_tensor_type()->set_elem_type(onnx::TensorProto_DataType_INT64);
 
             // step4. 修改flatten为resize
             it->set_op_type("Reshape");

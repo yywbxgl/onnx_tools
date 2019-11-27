@@ -51,7 +51,7 @@ void eliminate_node(onnx::ModelProto& model_proto, std::string node_type)
                     //找到下一层，修改下一层的input ps： only support one input and one outpt
                     for (int i=0; i<model_proto.graph().node_size(); ++i) 
                     {
-                        if (model_proto.graph().node(i).input(0) == output)
+                        if (model_proto.graph().node(i).input_size()!=0 && model_proto.graph().node(i).input(0) == output)
                         {
                             cout << "---- find prev node: " << endl;
                             cout << "name = " << model_proto.graph().node(i).name()  << endl;
